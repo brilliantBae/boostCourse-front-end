@@ -1,4 +1,4 @@
-### **CSS 의 구성**
+## **CSS 의 구성**
 
 ----
 
@@ -10,18 +10,20 @@
 
 
 
-### **style 을 HTML 페이지에 적용하는 3가지 방법**
+
+
+## **style 을 HTML 페이지에 적용하는 3가지 방법**
 
 ----
 
-#### inline 
+### inline 
 
 * HTML 태그 안에다가 적용한다.
 * 다른 CSS 파일에 적용한 것 보다 **가장 먼저** 적용된다.
 
 <img width="490" alt="2018-04-30 2 49 37" src="https://user-images.githubusercontent.com/23162178/39416164-be508794-4c85-11e8-938e-9c16753d882a.png">
 
-#### internal
+### internal
 
 * style 태그로 지정한다.
 * 구조와 스타일이 섞이게 되므로 유지보수가 어렵다.
@@ -29,7 +31,7 @@
 
 <img width="243" alt="2018-04-30 2 51 46" src="https://user-images.githubusercontent.com/23162178/39416190-08952b70-4c86-11e8-8bb4-4a55d839e538.png">
 
-#### external
+### external
 
 * 외부파일(.css)로 지정하는 방식
 * css 코드가 아주 짧지 않다면 되도록 이 방식으로 구현하는 것이 좋음
@@ -38,13 +40,15 @@
 
 <img width="320" alt="2018-04-30 2 54 55" src="https://user-images.githubusercontent.com/23162178/39416250-7868be08-4c86-11e8-99c2-60633a98ae9c.png">
 
-#### 우선순위
+### 우선순위
 
 Inline > internal > external
 
 
 
-### **상속과 우선순위 결정**
+
+
+## **상속과 우선순위 결정**
 
 ---
 
@@ -89,13 +93,13 @@ Inline > internal > external
 
 
 
-### **CSS selector**
+## **CSS selector**
 
 ---
 
 HTML 의 요소를 tag, id, html 태그 속성 등을 통해 쉽게 찾아주는 방법
 
-#### **element 에 style 지정을 위한 3가지 기본 선택자**
+### **element 에 style 지정을 위한 3가지 기본 선택자**
 
 * Tag 로 지정하기
 
